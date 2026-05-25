@@ -7,7 +7,7 @@ Dieses Repository dokumentiert die produktionsbereite Konfiguration für den Bet
 - **Container-Engine:** Podman (Rootless, OCI-konforme Runtime)
 - **AI-Runtime:** Ollama (Latest)
 - **Ziel-Hardware:** NVIDIA Quadro M2000 Maxwell 2.0 (Optimiert für Legacy-CUDA-Treiberzweige)
-
+- **Declarative Integration auf dem Host:** einzusehen ab Zeile 273 unter configuration.nix https://github.com/maxAnnoyedCat/Setup-for-Local-AI-on-Maxwell-2.0-GPU/blob/main/configuration.nix
 ---
 
 ## Native Podman Container-Inspektion
