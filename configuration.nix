@@ -110,7 +110,7 @@ systemd.services.synergy-custom = {
       # Wir suchen dynamisch nach der xauth-Datei von mrkitten
       ExecStart = "/bin/sh -c 'XAUTHORITY=$(ls /run/user/1000/xauth_* | head -n 1) exec ${pkgs.synergy}/bin/synergys -f --no-tray --config /etc/nixos/synergy.conf --address 192.168.100.1:24800'";
       Restart = "on-failure";
-      User = "mrkitten";
+      User = "intern";
     };
 
     environment = {
