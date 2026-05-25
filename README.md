@@ -6,7 +6,7 @@ Dieses Repository dokumentiert die produktionsbereite Konfiguration für den Bet
 - **Host-OS:** NixOS 25.11 (Xantusia)
 - **Toolchain-Kompatibilität:** Da die Compute Capability 5.2 (Maxwell) von modernen Upstream-Cuda-Toolchains oft nicht mehr direkt out-of-the-box unterstützt wird, bricht der native Build-Weg ab. Statt den gesamten Stack zeitaufwändig selbst zu kompilieren, löst dieses Setup das Kompatibilitätsproblem über die Kapselung in OCI-Containern (Podman). Über das `nvidia-container-toolkit` werden die CUDA-Kerne direkt an die Container-Runtime durchgereicht.
 - **AI-Runtime:** Ollama (Latest)
-- **Ziel-Hardware:** NVIDIA Quadro M2000 Maxwell 2.0 (Optimiert für Legacy-CUDA-Treiberzweige)
+- **Ziel-Hardware:** NVIDIA Quadro M2000 Maxwell 2.0 (Integration erfolgt über Legacy-Driver 535)
 - **Declarative Integration auf dem Host:** einzusehen ab Zeile 273 unter configuration.nix https://github.com/maxAnnoyedCat/Setup-for-Local-AI-on-Maxwell-2.0-GPU/blob/main/configuration.nix
 ---
 
