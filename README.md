@@ -6,7 +6,7 @@ Dieses Repository dokumentiert die produktionsbereite Konfiguration für den Bet
 - **Host-OS:** NixOS 25.11 (Xantusia)
 - **Container-Engine:** Podman (Rootless, OCI-konforme Runtime)
 - **AI-Runtime:** Ollama (Latest)
-- **Ziel-Hardware:** NVIDIA Maxwell 2.0 (Optimiert für Legacy-CUDA-Treiberzweige)
+- **Ziel-Hardware:** NVIDIA Quadro M2000 Maxwell 2.0 (Optimiert für Legacy-CUDA-Treiberzweige)
 
 ---
 
